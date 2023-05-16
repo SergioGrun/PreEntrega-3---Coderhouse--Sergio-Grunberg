@@ -1,0 +1,34 @@
+.borde-form{
+    
+    justify-content: center;
+    color:$color-letras;
+}    
+
+
+.contacto_2{
+   font-family: 'Inter', sans-serif;
+    color:whitesmoke;   
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+}
+
+.borde-formulario{
+    margin:100px;
+    border: map-get($borde_blanco, borde);
+ 
+        @media (max-width:580px){
+            margin: 20px;
+        }
+   
+}
+
+
+   
+.inquietud {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color:whitesmoke; 
+    text-align: center;
+   }
