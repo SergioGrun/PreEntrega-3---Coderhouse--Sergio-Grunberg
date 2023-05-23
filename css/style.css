@@ -389,7 +389,8 @@ footer ul {
 
 @media (max-width: 580px) {
   .video_you {
-    max-width: 90%;
+    max-width: 95%;
+    margin-left: 30px;
   }
 }
 
