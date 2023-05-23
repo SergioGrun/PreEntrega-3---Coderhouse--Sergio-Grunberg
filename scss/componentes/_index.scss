@@ -50,6 +50,7 @@
             
         @media (max-width:580px){
             margin-top: 0px;
+            max-width: 80%;
         }
     }
     
@@ -96,6 +97,8 @@
         @media (max-width:580px)
         {
             flex-direction:column;
+            max-width:90%;
+            margin-left: 15%;
                 }
        
     }
