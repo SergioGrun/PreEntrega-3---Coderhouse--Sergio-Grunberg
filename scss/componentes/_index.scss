@@ -47,6 +47,7 @@
         font-style: italic;
         @include formato_base (nth($letras,3),30px,10px, 50px 0px 0px 70px,$color-letras);
         justify-content: center;
+            
         @media (max-width:580px){
             margin-top: 0px;
         }
@@ -55,11 +56,12 @@
     .margen-index{
         margin:10px;
         align-items: center;
+     
     
     }
     .margen-fotos{
         margin:15px;
-        @media (max-width:580px){
+            @media (max-width:580px){
             max-width: 90%;
           
           
@@ -73,7 +75,10 @@
         @media (max-width:580px){
             justify-content: center;
         }
-   
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        
     }
     
     
@@ -84,3 +89,22 @@
 
     }  
 
+    .alinear{
+        display: flex;
+        margin-left: 25%;
+        flex-direction: row;
+        @media (max-width:580px)
+        {
+            flex-direction:column;
+                }
+       
+    }
+
+    .margen-lista{
+        margin:10px;
+        align-items: center;
+        @media (max-width:580px) {
+          margin:30%;
+            
+        }
+    }

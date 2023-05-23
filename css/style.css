@@ -217,6 +217,9 @@ header {
 
 .maximo-margen {
   max-width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
 }
 @media (max-width: 580px) {
   .maximo-margen {
@@ -231,6 +234,27 @@ header {
   padding: 5px;
   margin: 20px 0px 20px 0px;
   color: whitesmoke;
+}
+
+.alinear {
+  display: flex;
+  margin-left: 25%;
+  flex-direction: row;
+}
+@media (max-width: 580px) {
+  .alinear {
+    flex-direction: column;
+  }
+}
+
+.margen-lista {
+  margin: 10px;
+  align-items: center;
+}
+@media (max-width: 580px) {
+  .margen-lista {
+    margin: 30%;
+  }
 }
 
 footer {
@@ -357,6 +381,12 @@ footer ul {
   }
   .zoom:hover {
     transform: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .video_you {
+    max-width: 90%;
   }
 }
 
