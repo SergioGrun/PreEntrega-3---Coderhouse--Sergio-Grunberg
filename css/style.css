@@ -394,6 +394,10 @@ footer ul {
   }
 }
 
+.ultima_foto {
+  margin-bottom: 40px;
+}
+
 .parrafos_descr {
   border: double 3px whitesmoke;
   font-family: "Lato";
